@@ -1,11 +1,10 @@
 require 'pry'
 class Player
-   attr_accessor :name,:life_points, :players
+   attr_accessor :name,:life_points
 
   def initialize(non)
     @name = non.to_s
     @life_points = 10
-    @players = self
   end
 
   def show_state
